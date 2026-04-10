@@ -93,11 +93,6 @@ h2{font-family:'Syne',sans-serif;font-size:clamp(20px,3.5vw,30px);font-weight:80
 .quote-block em{color:var(--accent);font-style:normal;}
 
 /* MENTORS ROW */
-.mentors-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-top:24px;}
-.mentor-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px;text-align:center;}
-.mentor-name{font-family:'Syne',sans-serif;font-size:15px;font-weight:800;margin-bottom:4px;}
-.mentor-val{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--accent);letter-spacing:.06em;margin-bottom:8px;}
-.mentor-desc{font-size:13px;color:var(--muted);line-height:1.55;}
 
 /* BRIDGE */
 .bridge{background:var(--surface2);border:1px solid var(--border);border-radius:16px;padding:34px 30px;}
@@ -115,11 +110,6 @@ h2{font-family:'Syne',sans-serif;font-size:clamp(20px,3.5vw,30px);font-weight:80
 .lfill{height:100%;background:var(--grad);border-radius:2px;width:0%;transition:width 2.2s cubic-bezier(.2,1,.3,1);}
 
 /* PROOF */
-.proof-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:0;}
-.pcard{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px;}
-.pstars{color:#fbbf24;font-size:12px;letter-spacing:2px;margin-bottom:8px;}
-.pcard p{font-size:13px;color:var(--muted);font-style:italic;line-height:1.55;margin-bottom:10px;}
-.pname{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.1em;color:#3a3f54;text-transform:uppercase;}
 
 /* CTA */
 .cta-block{background:linear-gradient(135deg,rgba(245,166,35,.08) 0%,rgba(232,69,26,.08) 100%);border:1px solid rgba(245,166,35,.22);border-radius:20px;padding:52px 36px;text-align:center;position:relative;overflow:hidden;}
@@ -180,8 +170,7 @@ footer a{color:#3a3f54;text-decoration:underline;}
   .picon{width:44px;height:44px;font-size:18px;}
 
   /* MENTORS */
-  .mentors-row{grid-template-columns:1fr;}
-
+  
   /* BRIDGE */
   .bridge{padding:24px 20px;}
 
@@ -190,8 +179,7 @@ footer a{color:#3a3f54;text-decoration:underline;}
   .ltrack{width:100%;flex-basis:100%;}
 
   /* PROOF */
-  .proof-grid{grid-template-columns:1fr;}
-
+  
   /* CTA */
   .cta-block{padding:36px 20px;border-radius:14px;}
   .cta-guarantee{gap:12px;flex-direction:column;align-items:flex-start;padding:0 4px;}
@@ -229,7 +217,7 @@ footer a{color:#3a3f54;text-decoration:underline;}
 <div class="stats-bar">
   <div class="st"><span class="stn">$183bi</span><span class="stl">Mercado global games</span></div>
   <div class="st"><span class="stn">+34%</span><span class="stl">Crescimento em RMT</span></div>
-  <div class="st"><span class="stn">R$100k+</span><span class="stl">Gerados por mentores</span></div>
+  <div class="st"><span class="stn">R$100k+</span><span class="stl">Gerados com RMT</span></div>
 </div>
 
 <!-- LEAD -->
@@ -287,28 +275,7 @@ footer a{color:#3a3f54;text-decoration:underline;}
   </div>
 </section>
 
-<!-- MENTORS -->
-<section style="padding-top:0;">
-  <div class="slabel rv">Quem já prova isso</div>
-  <h2 class="rv">Pessoas reais vivendo de RMT</h2>
-  <div class="mentors-row rv">
-    <div class="mentor-card">
-      <div class="mentor-name">Kayssu</div>
-      <div class="mentor-val">+ R$60.000 desde 2022</div>
-      <div class="mentor-desc">Especialista em eficiência e escala. POE, Lost Ark e Throne & Liberty.</div>
-    </div>
-    <div class="mentor-card">
-      <div class="mentor-name">Migas</div>
-      <div class="mentor-val">+ R$100.000 com RMT</div>
-      <div class="mentor-desc">Vive de RMT há 3 anos. Ragnarok, POE, Lineage 2, MU Online.</div>
-    </div>
-    <div class="mentor-card">
-      <div class="mentor-name">Lionel</div>
-      <div class="mentor-val">100% de renda desde 2021</div>
-      <div class="mentor-desc">Combina automáticos e manuais. Renda passiva com escala real.</div>
-    </div>
-  </div>
-</section>
+
 
 <!-- BRIDGE -->
 <section style="padding-top:0;">
@@ -317,7 +284,7 @@ footer a{color:#3a3f54;text-decoration:underline;}
     <div class="slabel" style="margin-bottom:8px;">O pulo do gato</div>
     <h2>Por que a maioria dos gamers falha?</h2>
     <p>O mercado é vasto, mas a maioria falha por <strong>não ter um método claro</strong>. Sem estrutura: vendem na baixa, compram na alta, perdem itens por descuido nas transações — ou simplesmente não sabem qual jogo operar em cada momento.</p>
-    <p>Para quem quer levar o RMT a sério, existe uma <strong>apresentação detalhada</strong> com os métodos, jogos e estratégias exatos que esses mentores usam hoje.</p>
+    <p>Para quem quer levar o RMT a sério, existe uma <strong>apresentação detalhada</strong> com os métodos, jogos e estratégias mais utilizados este ano.</p>
   </div>
 
   <!-- Live -->
@@ -326,24 +293,7 @@ footer a{color:#3a3f54;text-decoration:underline;}
     <div class="ltext"><strong id="vc">247</strong> pessoas acessando o método agora</div>
     <div class="ltrack"><div class="lfill" id="lf"></div></div>
   </div>
-
-  <!-- Proof -->
-  <div class="proof-grid rv">
-    <div class="pcard">
-      <div class="pstars">★★★★★</div>
-      <p>"Comecei com Ragnarok e em 2 dias já tinha resultado. Método real."</p>
-      <div class="pname">— R.M., São Paulo</div>
-    </div>
-    <div class="pcard">
-      <div class="pstars">★★★★★</div>
-      <p>"Rodando MU automático em segundo plano enquanto trabalho. Incrível."</p>
-      <div class="pname">— L.F., Belo Horizonte</div>
-    </div>
-    <div class="pcard">
-      <div class="pstars">★★★★★</div>
-      <p>"Na primeira liga de POE já consegui +R$800. Quem tem método não fica no acaso."</p>
-      <div class="pname">— T.A., Curitiba</div>
-    </div>
+</div>
   </div>
 </section>
 
@@ -352,7 +302,7 @@ footer a{color:#3a3f54;text-decoration:underline;}
   <div class="cta-block rv">
     <div class="cta-eye">● Acesso liberado agora</div>
     <h2>Quer ver a estratégia completa?</h2>
-    <p>A apresentação do Método RPG cobre os jogos, técnicas e o passo a passo exato que os mentores usam para gerar renda consistente com RMT.</p>
+    <p>A apresentação do Método RPG cobre os jogos, técnicas e o passo a passo para gerar renda consistente com RMT.</p>
     <div class="cta-guarantee">
       <span class="guar-item">7 dias de garantia</span>
       <span class="guar-item">Resultado médio em 2 dias</span>
